@@ -101,6 +101,7 @@ public class MyLinearMapTest {
 	@Test
 	public void testPut() {
 		map.put("One", 11);
+		System.out.println("_________________"+map);
 		assertThat(map.size(), is(4));
 		assertThat(map.get("One"), is(11));
 		
